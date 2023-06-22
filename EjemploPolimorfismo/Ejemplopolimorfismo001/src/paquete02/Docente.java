@@ -20,8 +20,10 @@ public abstract class Docente {
     public String obtenerDocente(){
         return nombre;
     }
+    // el abstract obliga a que todas las clases docente implementen el metodo
+    public abstract void obtenerSueldo();
     
-    public abstract void obtenerSueldo(double d){
+    /*public abstract void obtenerSueldo(double d){
         sueldo = d;
-    }
+    }*/
 }

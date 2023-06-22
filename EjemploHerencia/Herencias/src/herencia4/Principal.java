@@ -36,15 +36,16 @@ public class Principal {
         // agregar elementos
         
         
-        ReporteDocente rd = new ReporteDocente("0001Doc");
+        ReporteDocente rd = new ReporteDocente("0001Doc", listaDocentes);
+        rd.establecerPromedioSueldos();
         
-        ReporteEstudiante re = new ReporteEstudiante("0001Est");
+        /*ReporteEstudiante re = new ReporteEstudiante("0001Est");
         
-        ReportePolicia rp = new ReportePolicia("0001Pol");
+        ReportePolicia rp = new ReportePolicia("0001Pol");*/
         
         System.out.println(rd);
-        System.out.println(re);
-        System.out.println(rp);
+        /*System.out.println(re);
+        System.out.println(rp);*/
         
     }
 }

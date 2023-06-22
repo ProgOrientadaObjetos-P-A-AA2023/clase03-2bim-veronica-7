@@ -11,7 +11,7 @@ public class EjecutaEstudiante {
 
         /*
         Generar un proceso que permita ingresar n número 
-        de docentes. 
+        de estudiantes. 
         El usuario decide de manera prevía cuantos objetos
         de tipo EstudiantePresencial y EstudianteDistancia
         quiere ingresar.
@@ -29,6 +29,9 @@ public class EjecutaEstudiante {
         int tipoEstudiante;
         String continuar;
         int contador;
+        
+        System.out.println("Ingrese la cantidad de estudiantes que desea ingresar:");
+        int numEst = entrada.nextInt();
         ArrayList<Estudiante> estudiantes = new ArrayList<>();
         
         // inicio de solución
